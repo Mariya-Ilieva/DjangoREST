@@ -32,6 +32,8 @@ class Employee(AbstractUser, PermissionsMixin):
 
     phone_number = models.CharField(max_length=10, validators=[validate_phone_number, ])
 
+    department = models.ForeignKey(Department, on_delete=models.CASCADE)
+
     USERNAME_FIELD = 'username'
     REQUIRED_FIELDS = ['email', 'age', 'first_name', 'last_name']
 
