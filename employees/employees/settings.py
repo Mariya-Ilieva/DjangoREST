@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'employees.employees_app',
+    'employees.departments_app',
 ]
 
 MIDDLEWARE = [
