@@ -94,3 +94,5 @@ venv.bak/
 dmypy.json
 
 .pyre/
+
+.idea
