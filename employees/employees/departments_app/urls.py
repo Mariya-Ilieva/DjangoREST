@@ -1,4 +1,5 @@
 from django.urls import path
+
 from employees.departments_app.views import DepartmentListCreateView, DepartmentUpdateDestroyView
 
 urlpatterns = [

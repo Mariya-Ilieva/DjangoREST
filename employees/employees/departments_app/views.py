@@ -1,4 +1,5 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+
 from employees.departments_app.models import Department
 from employees.departments_app.serializers import DepartmentSerializer
 

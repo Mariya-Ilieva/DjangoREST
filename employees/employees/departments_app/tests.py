@@ -1,4 +1,5 @@
 from django.test import TestCase
+
 from employees.departments_app.models import Department
 
 

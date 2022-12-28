@@ -1,4 +1,5 @@
 from rest_framework.serializers import ModelSerializer
+
 from employees.departments_app.models import Department
 
 

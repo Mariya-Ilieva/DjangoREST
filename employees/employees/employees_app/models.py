@@ -2,6 +2,7 @@ from django.contrib.auth.models import AbstractUser, PermissionsMixin, UserManag
 from django.contrib.auth.models import User
 from django.core.validators import MinLengthValidator, MinValueValidator
 from django.db import models
+
 from employees.departments_app.models import Department
 from employees.employees_app.validators import validate_name, validate_phone_number
 
